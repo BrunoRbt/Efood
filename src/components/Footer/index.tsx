@@ -8,9 +8,27 @@ const Footer = () => (
   <FooterStyle>
     <Branding src={logo} alt="Logo do efood" />
     <SocialMedia>
-      <img src={facebook} alt="" />
-      <img src={instagram} alt="" />
-      <img src={twitter} alt="" />
+      <a
+        href="https://github.com/BrunoRbt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={facebook} alt="Facebook" />
+      </a>
+      <a
+        href="https://github.com/BrunoRbt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={instagram} alt="Instagram" />
+      </a>
+      <a
+        href="https://github.com/BrunoRbt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={twitter} alt="Twitter" />
+      </a>
     </SocialMedia>
     <Disclaimer>
       A efood é uma plataforma para divulgação de estabelecimentos, a

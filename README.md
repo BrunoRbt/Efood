@@ -44,50 +44,29 @@ Após iniciar o servidor de desenvolvimento, abra o navegador e acesse `http://l
 
 ## Estrutura do Projeto 📂
 
-```plaintext
-.editorconfig
-[.eslintrc.json](http://_vscodecontentref_/0)
-.gitignore
-.prettierrc
-.vscode/
-    [settings.json](http://_vscodecontentref_/1)
-HEAD@{11}
-[notes.md](http://_vscodecontentref_/2)
-[package.json](http://_vscodecontentref_/3)
-public/
-    [index.html](http://_vscodecontentref_/4)
-    [manifest.json](http://_vscodecontentref_/5)
-    [robots.txt](http://_vscodecontentref_/6)
-[README.md](http://_vscodecontentref_/7)
-src/
-    [App.tsx](http://_vscodecontentref_/8)
-    assets/
-    components/
-        Apresentacao/
-        Button/
-        Cart/
-        Checkout/
-        Food/
-        FoodList/
-        Footer/
-        Header/
-        Hero/
-        Loader/
-        Restaurant/
-        RestaurantList/
-    [index.tsx](http://_vscodecontentref_/9)
-    pages/
-        Home/
-        Perfil/
-    [react-app-env.d.ts](http://_vscodecontentref_/10)
-    [reportWebVitals.ts](http://_vscodecontentref_/11)
-    [routes.tsx](http://_vscodecontentref_/12)
-    services/
-    [setupTests.ts](http://_vscodecontentref_/13)
-    store/
-    [styles.ts](http://_vscodecontentref_/14)
-    [types.d.ts](http://_vscodecontentref_/15)
-[tsconfig.json](http://_vscodecontentref_/16)
+### Descrição das Pastas e Arquivos
+
+- **.editorconfig**: Configurações de formatação do editor.
+- **.eslintrc.json**: Configurações do ESLint para linting do código.
+- **.gitignore**: Arquivos e pastas a serem ignorados pelo Git.
+- **.prettierrc**: Configurações do Prettier para formatação de código.
+- **.vscode/**: Configurações específicas do Visual Studio Code.
+- **package.json**: Dependências e scripts do projeto.
+- **public/**: Arquivos públicos, incluindo o HTML principal.
+- **README.md**: Documentação do projeto.
+- **src/**: Código-fonte da aplicação.
+  - **App.tsx**: Componente principal da aplicação.
+  - **assets/**: Recursos estáticos como imagens.
+  - **components/**: Componentes reutilizáveis da aplicação.
+  - **pages/**: Páginas da aplicação.
+  - **react-app-env.d.ts**: Definições de tipos para o ambiente React.
+  - **reportWebVitals.ts**: Medição de performance da aplicação.
+  - **routes.tsx**: Definição das rotas da aplicação.
+  - **services/**: Serviços de API e outras funcionalidades de backend.
+  - **setupTests.ts**: Configuração para testes.
+  - **store/**: Configuração do estado global da aplicação (Redux).
+  - **types.d.ts**: Definições de tipos TypeScript.
+- **tsconfig.json**: Configurações do TypeScript.
 
 Tecnologias Utilizadas 🛠️
 React: Biblioteca JavaScript para construção de interfaces de usuário.

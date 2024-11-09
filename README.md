@@ -8,15 +8,6 @@
 
 Efood é uma aplicação web para pedidos de comida, permitindo que os usuários explorem restaurantes, adicionem itens ao carrinho e finalizem suas compras.
 
-## Índice 📑
-
-- [Instalação](#instalação-)
-- [Uso](#uso-)
-- [Estrutura do Projeto](#estrutura-do-projeto-)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas-)
-- [Contribuição](#contribuição-)
-- [Licença](#licença-)
-
 ## Instalação 🛠️
 
 Para instalar e rodar o projeto localmente, siga os passos abaixo:
